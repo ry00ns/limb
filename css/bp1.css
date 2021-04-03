@@ -1,0 +1,24 @@
+.master {
+	display: none;
+}
+.bp1 {
+	display: contents;
+	display: flex;
+}
+.wrapper-works .flex > img {
+	width: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: filter 0.4s;
+}
+.wrapper-works .flex > img:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
+  transition: filter 0.4s;
+}
